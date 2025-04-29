@@ -1,0 +1,455 @@
+time=2025-04-28 20:07:31.787308+05:30 PID=10768 level=info msg=os.Args args=[C:\Program Files\JumpCloud\jumpcloud-agent.exe]
+time=2025-04-28 20:07:31.787308+05:30 PID=10768 level=info msg=---------------------
+time=2025-04-28 20:07:31.787308+05:30 PID=10768 level=info msg=Starting Agent service
+time=2025-04-28 20:07:31.787308+05:30 PID=10768 level=info msg=---------------------
+time=2025-04-28 20:07:31.787308+05:30 PID=10768 level=info msg=Build version: 2.27.1
+time=2025-04-28 20:07:31.787308+05:30 PID=10768 level=info msg=Build date: Fri Apr 18 19:27:05 UTC 2025
+time=2025-04-28 20:07:31.787308+05:30 PID=10768 level=info msg=Starting as a non-interactive session
+time=2025-04-28 20:07:31.787308+05:30 PID=10768 level=info msg=starting jumpcloud-agentservice
+time=2025-04-28 20:07:31.790402+05:30 PID=10768 level=info msg=streaming logger send interval set to 15m0s seconds
+time=2025-04-28 20:07:31.790402+05:30 PID=10768 level=info msg=streaming logger batch size set to 1048576 bytes
+time=2025-04-28 20:07:31.790402+05:30 PID=10768 level=info msg=enabling streaming logger
+time=2025-04-28 20:07:31.800326+05:30 PID=10768 level=info msg=Loading log level path=C:\Program Files\JumpCloud\loglevel.cache
+time=2025-04-28 20:07:31.807979+05:30 PID=10768 level=info msg=Setting log level to DEBUG
+time=2025-04-28 20:07:31.807979+05:30 PID=10768 level=info msg=Set log level path=C:\Program Files\JumpCloud\loglevel.cache
+time=2025-04-28 20:07:31.807979+05:30 PID=10768 level=info msg=Loading config path=C:\Program Files\JumpCloud\Plugins\Contrib\jcagent.conf
+time=2025-04-28 20:07:31.807979+05:30 PID=10768 level=debug msg=Loaded jcagent.conf contents: map[agentInstallDir:{{ WINDOWS_INSTALL_PATH }}\ agentServerGoPort:443 agentServerHost:agent.jumpcloud.com caCrt:{{ WINDOWS_INSTALL_PATH }}\ca.crt certuuid:ddf36c70e5c840f74801ed4e8f28e1bf clientCrt:{{ WINDOWS_INSTALL_PATH }}\client.crt clientKey:{{ WINDOWS_INSTALL_PATH }}\client.key durtURL:https://go.jumpcloud.com/api/ ipCheckUrl:https://kickstart.jumpcloud.com/ip logStreamingBatchSize:1.048576e+06 logStreamingEnabled:true logStreamingIntervalSeconds:900 logStreamingLevel:info macOSKeychainRecoveryEnabled:true oauthAuthURL:https://oauth.jumpcloud.com/oauth2/auth oauthClientID:d20e6b3c-d829-4d33-899b-d05d64585b85 oauthTokenURL:https://oauth.jumpcloud.com/oauth2/token osPresenceEnabled:true secureLoginEnabled:true ssapPresence:first_user systemKey:680f7699b209d8c423cfaee1 tls:true]
+time=2025-04-28 20:07:31.809406+05:30 PID=10768 level=debug msg=Loaded jcagent.conf contents: map[agentInstallDir:{{ WINDOWS_INSTALL_PATH }}\ agentServerGoPort:443 agentServerHost:agent.jumpcloud.com caCrt:{{ WINDOWS_INSTALL_PATH }}\ca.crt certuuid:ddf36c70e5c840f74801ed4e8f28e1bf clientCrt:{{ WINDOWS_INSTALL_PATH }}\client.crt clientKey:{{ WINDOWS_INSTALL_PATH }}\client.key durtURL:https://go.jumpcloud.com/api/ ipCheckUrl:https://kickstart.jumpcloud.com/ip logStreamingBatchSize:1.048576e+06 logStreamingEnabled:true logStreamingIntervalSeconds:900 logStreamingLevel:info macOSKeychainRecoveryEnabled:true oauthAuthURL:https://oauth.jumpcloud.com/oauth2/auth oauthClientID:d20e6b3c-d829-4d33-899b-d05d64585b85 oauthTokenURL:https://oauth.jumpcloud.com/oauth2/token osPresenceEnabled:true secureLoginEnabled:true ssapPresence:first_user systemKey:680f7699b209d8c423cfaee1 tls:true]
+time=2025-04-28 20:07:31.810998+05:30 PID=10768 level=debug msg=Loaded jcagent.conf contents: map[agentInstallDir:{{ WINDOWS_INSTALL_PATH }}\ agentServerGoPort:443 agentServerHost:agent.jumpcloud.com caCrt:{{ WINDOWS_INSTALL_PATH }}\ca.crt certuuid:ddf36c70e5c840f74801ed4e8f28e1bf clientCrt:{{ WINDOWS_INSTALL_PATH }}\client.crt clientKey:{{ WINDOWS_INSTALL_PATH }}\client.key durtURL:https://go.jumpcloud.com/api/ ipCheckUrl:https://kickstart.jumpcloud.com/ip logStreamingBatchSize:1.048576e+06 logStreamingEnabled:true logStreamingIntervalSeconds:900 logStreamingLevel:info macOSKeychainRecoveryEnabled:true oauthAuthURL:https://oauth.jumpcloud.com/oauth2/auth oauthClientID:d20e6b3c-d829-4d33-899b-d05d64585b85 oauthTokenURL:https://oauth.jumpcloud.com/oauth2/token osPresenceEnabled:true secureLoginEnabled:true ssapPresence:first_user systemKey:680f7699b209d8c423cfaee1 tls:true]
+time=2025-04-28 20:07:31.810998+05:30 PID=10768 level=debug msg=REGISTRATION: Current certificate expires on 2030-04-27 12:36:43 +0000 UTC (1824.92 days remaining)
+time=2025-04-28 20:07:31.810998+05:30 PID=10768 level=debug msg=Loaded jcagent.conf contents: map[agentInstallDir:{{ WINDOWS_INSTALL_PATH }}\ agentServerGoPort:443 agentServerHost:agent.jumpcloud.com caCrt:{{ WINDOWS_INSTALL_PATH }}\ca.crt certuuid:ddf36c70e5c840f74801ed4e8f28e1bf clientCrt:{{ WINDOWS_INSTALL_PATH }}\client.crt clientKey:{{ WINDOWS_INSTALL_PATH }}\client.key durtURL:https://go.jumpcloud.com/api/ ipCheckUrl:https://kickstart.jumpcloud.com/ip logStreamingBatchSize:1.048576e+06 logStreamingEnabled:true logStreamingIntervalSeconds:900 logStreamingLevel:info macOSKeychainRecoveryEnabled:true oauthAuthURL:https://oauth.jumpcloud.com/oauth2/auth oauthClientID:d20e6b3c-d829-4d33-899b-d05d64585b85 oauthTokenURL:https://oauth.jumpcloud.com/oauth2/token osPresenceEnabled:true secureLoginEnabled:true ssapPresence:first_user systemKey:680f7699b209d8c423cfaee1 tls:true]
+time=2025-04-28 20:07:35.003319+05:30 PID=10768 level=info msg=system OS info systemInfo=Microsoft Windows 11 Enterprise Evaluation 10.0.22631
+time=2025-04-28 20:07:35.708142+05:30 PID=10768 level=info msg=Creating HTTP client.
+time=2025-04-28 20:07:35.708142+05:30 PID=10768 level=info msg=using new path construction method
+time=2025-04-28 20:07:35.708142+05:30 PID=10768 level=info msg=Using migrations path of file://C:/Program%20Files/JumpCloud/Plugins/Contrib/migrations
+time=2025-04-28 20:07:35.709170+05:30 PID=10768 level=info msg=HTTP client successfully initialized its TLS config.
+time=2025-04-28 20:07:35.710861+05:30 PID=10768 level=info msg=No database migration needed, already at version 22
+time=2025-04-28 20:07:35.712601+05:30 PID=10768 level=debug msg=Setting default agent config values if not present
+time=2025-04-28 20:07:35.713104+05:30 PID=10768 level=info msg=winusermgr.domainInfoNotifier.IsInADomain: Domain Name: , isInADomain: false
+time=2025-04-28 20:07:35.713104+05:30 PID=10768 level=error msg=failed to prepare statement for reporter_record select error=row value misused
+time=2025-04-28 20:07:35.713104+05:30 PID=10768 level=debug msg=AuthConfUpdater calling GetWithRetries(/authconf)
+time=2025-04-28 20:07:35.713104+05:30 PID=10768 level=debug msg=[mdm] creating mdm service watcher
+time=2025-04-28 20:07:35.713104+05:30 PID=10768 level=debug msg=[mdm] creating mdm service reporter
+time=2025-04-28 20:07:35.713104+05:30 PID=10768 level=debug msg=[mdm] init report collectors
+time=2025-04-28 20:07:35.713104+05:30 PID=10768 level=debug msg=[mdm] registry report collectors
+time=2025-04-28 20:07:35.713632+05:30 PID=10768 level=info msg=Agent Init systemID=680f7699b209d8c423cfaee1
+time=2025-04-28 20:07:35.713632+05:30 PID=10768 level=debug msg=Added listening function for SetLogLevel
+time=2025-04-28 20:07:35.713632+05:30 PID=10768 level=debug msg=Added listening function for LoadWorkflows
+time=2025-04-28 20:07:35.713632+05:30 PID=10768 level=debug msg=Added listening function for RunWorkflow
+time=2025-04-28 20:07:35.713632+05:30 PID=10768 level=debug msg=Added listening function for ClearWorkflows
+time=2025-04-28 20:07:35.713632+05:30 PID=10768 level=debug msg=Added listening function for heartbeat
+time=2025-04-28 20:07:35.713632+05:30 PID=10768 level=debug msg=Added listening function for update_agent_updater
+time=2025-04-28 20:07:35.713632+05:30 PID=10768 level=debug msg=Added listening function for update_agent
+time=2025-04-28 20:07:35.713632+05:30 PID=10768 level=debug msg=Added listening function for uninstall_agent
+time=2025-04-28 20:07:35.713632+05:30 PID=10768 level=debug msg=Added listening function for update_config
+time=2025-04-28 20:07:35.713632+05:30 PID=10768 level=debug msg=Added listening function for update_auth_conf
+time=2025-04-28 20:07:35.713632+05:30 PID=10768 level=debug msg=Added listening function for update_policy_conf
+time=2025-04-28 20:07:35.713632+05:30 PID=10768 level=debug msg=Added listening function for update_software_app_conf
+time=2025-04-28 20:07:35.713632+05:30 PID=10768 level=debug msg=Added listening function for update_trusted_app_conf
+time=2025-04-28 20:07:35.713632+05:30 PID=10768 level=debug msg=Added listening function for renew_certificate
+time=2025-04-28 20:07:35.713632+05:30 PID=10768 level=debug msg=Added listening function for fetch_fde_recovery_key
+time=2025-04-28 20:07:35.713632+05:30 PID=10768 level=debug msg=Added listening function for update_system_insights_conf
+time=2025-04-28 20:07:35.713632+05:30 PID=10768 level=debug msg=Added listening function for directive_service
+time=2025-04-28 20:07:35.713632+05:30 PID=10768 level=debug msg=Added listening function for microsoft_mdm_enroll
+time=2025-04-28 20:07:35.713632+05:30 PID=10768 level=debug msg=Added listening function for RunDiagnostic
+time=2025-04-28 20:07:37.315606+05:30 PID=10768 level=debug msg=Retroactively enforcing max attempts... function=event.handlers.Lockout.enforceMaxAttempts
+time=2025-04-28 20:07:37.315606+05:30 PID=10768 level=info msg=Agent Init complete
+time=2025-04-28 20:07:37.315606+05:30 PID=10768 level=info msg=Agent Start
+time=2025-04-28 20:07:37.315606+05:30 PID=10768 level=debug msg=Starting service service=Windows Event Watcher
+time=2025-04-28 20:07:37.316688+05:30 PID=10768 level=debug msg=Loaded and created bookmark 1
+time=2025-04-28 20:07:37.316688+05:30 PID=10768 level=debug msg=Subscribing to events with mode 65539 and bookmark 1
+time=2025-04-28 20:07:37.317241+05:30 PID=10768 level=debug msg=Subscribing to events with mode 65539 and bookmark 1
+time=2025-04-28 20:07:37.317768+05:30 PID=10768 level=debug msg=Subscribing to events with mode 65539 and bookmark 1
+time=2025-04-28 20:07:37.317768+05:30 PID=10768 level=debug msg=Subscribing to events with mode 65539 and bookmark 1
+time=2025-04-28 20:07:37.318378+05:30 PID=10768 level=debug msg=Subscribing to events with mode 65539 and bookmark 1
+time=2025-04-28 20:07:37.318588+05:30 PID=10768 level=debug msg=Loaded and created bookmark 7
+time=2025-04-28 20:07:37.318588+05:30 PID=10768 level=debug msg=Subscribing to events with mode 65539 and bookmark 7
+time=2025-04-28 20:07:37.319147+05:30 PID=10768 level=debug msg=Successfully started service service=Windows Event Watcher
+time=2025-04-28 20:07:37.319147+05:30 PID=10768 level=debug msg=Starting service service=Windows Event Watcher
+time=2025-04-28 20:07:37.319220+05:30 PID=10768 level=debug msg=Loaded and created bookmark 9
+time=2025-04-28 20:07:37.319220+05:30 PID=10768 level=debug msg=Subscribing to events with mode 65539 and bookmark 9
+time=2025-04-28 20:07:37.319220+05:30 PID=10768 level=debug msg=Subscribing to events with mode 65539 and bookmark 9
+time=2025-04-28 20:07:37.319790+05:30 PID=10768 level=debug msg=Subscribing to events with mode 65539 and bookmark 9
+time=2025-04-28 20:07:37.319790+05:30 PID=10768 level=debug msg=Subscribing to events with mode 65539 and bookmark 9
+time=2025-04-28 20:07:37.320296+05:30 PID=10768 level=debug msg=Subscribing to events with mode 65539 and bookmark 9
+time=2025-04-28 20:07:37.320358+05:30 PID=10768 level=debug msg=Loaded and created bookmark 15
+time=2025-04-28 20:07:37.320358+05:30 PID=10768 level=debug msg=Subscribing to events with mode 65539 and bookmark 15
+time=2025-04-28 20:07:37.320870+05:30 PID=10768 level=debug msg=Successfully started service service=Windows Event Watcher
+time=2025-04-28 20:07:37.320935+05:30 PID=10768 level=info msg=JCClient Start
+time=2025-04-28 20:07:37.320935+05:30 PID=10768 level=info msg=CertificateChecker Start
+time=2025-04-28 20:07:37.320935+05:30 PID=10768 level=info msg=CertificateChecker Start complete
+time=2025-04-28 20:07:37.321549+05:30 PID=10768 level=debug msg=Loaded jcagent.conf contents: map[agentInstallDir:{{ WINDOWS_INSTALL_PATH }}\ agentServerGoPort:443 agentServerHost:agent.jumpcloud.com caCrt:{{ WINDOWS_INSTALL_PATH }}\ca.crt certuuid:ddf36c70e5c840f74801ed4e8f28e1bf clientCrt:{{ WINDOWS_INSTALL_PATH }}\client.crt clientKey:{{ WINDOWS_INSTALL_PATH }}\client.key durtURL:https://go.jumpcloud.com/api/ ipCheckUrl:https://kickstart.jumpcloud.com/ip logStreamingBatchSize:1.048576e+06 logStreamingEnabled:true logStreamingIntervalSeconds:900 logStreamingLevel:info macOSKeychainRecoveryEnabled:true oauthAuthURL:https://oauth.jumpcloud.com/oauth2/auth oauthClientID:d20e6b3c-d829-4d33-899b-d05d64585b85 oauthTokenURL:https://oauth.jumpcloud.com/oauth2/token osPresenceEnabled:true secureLoginEnabled:true ssapPresence:first_user systemKey:680f7699b209d8c423cfaee1 tls:true]
+time=2025-04-28 20:07:37.321549+05:30 PID=10768 level=info msg=JCClient Start complete
+time=2025-04-28 20:07:37.321549+05:30 PID=10768 level=info msg=DevicesClient Start
+time=2025-04-28 20:07:37.321549+05:30 PID=10768 level=debug msg=Loaded jcagent.conf contents: map[agentInstallDir:{{ WINDOWS_INSTALL_PATH }}\ agentServerGoPort:443 agentServerHost:agent.jumpcloud.com caCrt:{{ WINDOWS_INSTALL_PATH }}\ca.crt certuuid:ddf36c70e5c840f74801ed4e8f28e1bf clientCrt:{{ WINDOWS_INSTALL_PATH }}\client.crt clientKey:{{ WINDOWS_INSTALL_PATH }}\client.key durtURL:https://go.jumpcloud.com/api/ ipCheckUrl:https://kickstart.jumpcloud.com/ip logStreamingBatchSize:1.048576e+06 logStreamingEnabled:true logStreamingIntervalSeconds:900 logStreamingLevel:info macOSKeychainRecoveryEnabled:true oauthAuthURL:https://oauth.jumpcloud.com/oauth2/auth oauthClientID:d20e6b3c-d829-4d33-899b-d05d64585b85 oauthTokenURL:https://oauth.jumpcloud.com/oauth2/token osPresenceEnabled:true secureLoginEnabled:true ssapPresence:first_user systemKey:680f7699b209d8c423cfaee1 tls:true]
+time=2025-04-28 20:07:37.321549+05:30 PID=10768 level=debug msg=GET: https://agent.jumpcloud.com:443/authconf
+time=2025-04-28 20:07:37.321549+05:30 PID=10768 level=debug msg=REGISTRATION: Current certificate expires on 2030-04-27 12:36:43 +0000 UTC (1824.92 days remaining)
+time=2025-04-28 20:07:37.322116+05:30 PID=10768 level=info msg=DevicesClient Start complete
+time=2025-04-28 20:07:37.322116+05:30 PID=10768 level=debug msg=to run setup secure login curHash=53dfdd58b7205fcb7e246c64dd0ffd658b1c137cde6f7913ef6fe78fead7675a function=agent.evaluateSecureLoginOptions lastHash="" result=false
+time=2025-04-28 20:07:37.322116+05:30 PID=10768 level=info msg=config.enabled=true function=agent.SetupSecureLogin
+time=2025-04-28 20:07:37.322116+05:30 PID=10768 level=info msg=streaming logger sender set
+time=2025-04-28 20:07:37.322116+05:30 PID=10768 level=debug msg=enabled oidc credential provider, openedExistingKey=true function=agent.SetupSecureLogin
+time=2025-04-28 20:07:37.322116+05:30 PID=10768 level=info msg=Starting metrics db queue
+time=2025-04-28 20:07:37.323397+05:30 PID=10768 level=info msg=UserManagement Start
+time=2025-04-28 20:07:37.324015+05:30 PID=10768 level=debug msg=winusermgr.domainInfoNotifier.waitForDomainChanges: waiting for domain object signal...
+time=2025-04-28 20:07:37.328818+05:30 PID=10768 level=info msg=UserManagement Start complete
+time=2025-04-28 20:07:37.328882+05:30 PID=10768 level=info msg=Dispatcher Start
+time=2025-04-28 20:07:37.328882+05:30 PID=10768 level=info msg=Dispatcher Start complete
+time=2025-04-28 20:07:37.328882+05:30 PID=10768 level=info msg=LocalListener Start
+time=2025-04-28 20:07:37.328882+05:30 PID=10768 level=debug msg=MQTT push config requested by Start. No cached config. Retrieving new config
+time=2025-04-28 20:07:37.328882+05:30 PID=10768 level=debug msg=GET: https://agent.jumpcloud.com:443/pushconfig
+time=2025-04-28 20:07:37.328882+05:30 PID=10768 level=info msg=LocalListener Start Complete
+time=2025-04-28 20:07:37.328882+05:30 PID=10768 level=info msg=LocalGrpcServer Start
+time=2025-04-28 20:07:37.328882+05:30 PID=10768 level=debug msg=Starting poll for directives function=dispatcher.poller url=/poll
+time=2025-04-28 20:07:37.329600+05:30 PID=10768 level=info msg=received immediate poll request function=dispatcher.poller
+time=2025-04-28 20:07:37.329600+05:30 PID=10768 level=info msg=loaded softwareAppConf: {"checksum":"","softwareApps":null} function=softwareapps.manager.loadPersistedSoftwareAppConf
+time=2025-04-28 20:07:37.329600+05:30 PID=10768 level=debug msg=sac is not valid, not enqueueing anything function=softwareapps.manager.enqueueSoftwareAppConf
+time=2025-04-28 20:07:37.330107+05:30 PID=10768 level=debug msg=returning  function=softwareapps.manager.ConfChecksum
+time=2025-04-28 20:07:37.330771+05:30 PID=10768 level=debug msg=Starting to serve grpc on primary listener
+time=2025-04-28 20:07:37.332230+05:30 PID=10768 level=info msg=LocalGrpcServer Start Complete
+time=2025-04-28 20:07:37.332230+05:30 PID=10768 level=info msg=Starting mdmReport reporter
+time=2025-04-28 20:07:37.332230+05:30 PID=10768 level=debug msg=[mdmCollector:subscriptionWindows] listening for registry changes
+time=2025-04-28 20:07:37.332230+05:30 PID=10768 level=debug msg=watcher.Start: create terminate handle
+time=2025-04-28 20:07:37.332230+05:30 PID=10768 level=debug msg=Starting to serve grpc on secondary listener
+time=2025-04-28 20:07:37.332230+05:30 PID=10768 level=debug msg=[mdm] service started
+time=2025-04-28 20:07:37.332230+05:30 PID=10768 level=info msg=starting policy manager
+time=2025-04-28 20:07:37.332230+05:30 PID=10768 level=debug msg=watcher.monitor: watch Software\Microsoft\Provisioning\OMADM\Accounts
+time=2025-04-28 20:07:37.332803+05:30 PID=10768 level=debug msg=watcher.monitor: create event handle for registry monitor
+time=2025-04-28 20:07:37.332803+05:30 PID=10768 level=info msg=winusermgr.domainInfoNotifier.IsInADomain: Domain Name: , isInADomain: false
+time=2025-04-28 20:07:37.332803+05:30 PID=10768 level=debug msg=watcher.monitor: open registry notification
+time=2025-04-28 20:07:37.332230+05:30 PID=10768 level=info msg=[mdmReport] running report
+time=2025-04-28 20:07:37.332803+05:30 PID=10768 level=debug msg=[mdmReport] running collectors
+time=2025-04-28 20:07:37.332803+05:30 PID=10768 level=debug msg=watcher.monitor: wait for callback events
+time=2025-04-28 20:07:37.332230+05:30 PID=10768 level=info msg=Starting DURT service... function=StartListening service=durt
+time=2025-04-28 20:07:37.332803+05:30 PID=10768 level=debug msg=no managed apps to enqueue function=softwareapps.manager.enqueueAppIDs
+time=2025-04-28 20:07:37.332803+05:30 PID=10768 level=debug msg=policies manager run started
+time=2025-04-28 20:07:37.332803+05:30 PID=10768 level=info msg=Starting function=FDEManager.Start
+time=2025-04-28 20:07:37.332803+05:30 PID=10768 level=info msg=[mdm] collecting subscription info
+time=2025-04-28 20:07:37.332803+05:30 PID=10768 level=info msg=Using DURT API: https://go.jumpcloud.com/api/ function=StartListening service=durt
+time=2025-04-28 20:07:37.333576+05:30 PID=10768 level=info msg=[mdmCollector:subscriptionWindows] checking for JumpCloud enrollment guid=2A6048AE-6B54-4EAE-A48B-EB2550DC4FC1 providerID=JumpCloudMDM sid=S-1-5-21-1012092847-852938944-3688632275-1001 upn=JumpCloud@agent.enrolled vendor=internal
+time=2025-04-28 20:07:37.333576+05:30 PID=10768 level=debug msg=[mdmReport] data collected
+time=2025-04-28 20:07:37.333576+05:30 PID=10768 level=debug msg=[mdm] sending report report={"vendor":"internal","windowsDeviceId":"E062869849028F4997A9492035180345","upn":"JumpCloud@agent.enrolled","providerId":"JumpCloudMDM"}
+time=2025-04-28 20:07:37.358176+05:30 PID=10768 level=info msg=policies manager now applying policies
+time=2025-04-28 20:07:37.370311+05:30 PID=10768 level=info msg=DURT platform type: TPM-Version:2.0 -Level:0-Revision:1.16-VendorID:'MSFT'-Firmware:538247443.1394722 function=getTPMSupportStatus service=durt
+time=2025-04-28 20:07:37.370311+05:30 PID=10768 level=info msg=DURT is supported function=InitializeKeystore service=durt
+time=2025-04-28 20:07:37.371320+05:30 PID=10768 level=info msg=Serving DURT requests... function=StartListening service=durt
+time=2025-04-28 20:07:38.438286+05:30 PID=10768 level=info msg=MQTT client expires at: 2025-05-28T14:37:38.000Z. Setting up timer to reconnect in: 647h59m59.60554188s
+time=2025-04-28 20:07:38.438286+05:30 PID=10768 level=info msg=Connecting MQTT client URL=tls://a1hrq03pdcca60-ats.iot.us-east-1.amazonaws.com:443 clientID=system-680f7699b209d8c423cfaee1-1745851058438286800
+time=2025-04-28 20:07:38.438797+05:30 PID=10768 level=debug msg=MQTT push config requested by getCredentials. Using cached config
+time=2025-04-28 20:07:38.465129+05:30 PID=10768 level=info msg=Processing user updates
+time=2025-04-28 20:07:38.475316+05:30 PID=10768 level=warning msg=The operation completed successfully.
+time=2025-04-28 20:07:38.475316+05:30 PID=10768 level=info msg=Processing adding new users users=map[]
+time=2025-04-28 20:07:38.475316+05:30 PID=10768 level=info msg=Processing user takeovers takeoverUsers=map[]
+time=2025-04-28 20:07:38.475316+05:30 PID=10768 level=info msg=Processing already managed alreadyManagedUsers=map[superman:0xc00633cdc0]
+time=2025-04-28 20:07:38.475316+05:30 PID=10768 level=info msg=in userMod() firstName=Super lastName=Man username=superman
+time=2025-04-28 20:07:38.483937+05:30 PID=10768 level=warning msg=The operation completed successfully.
+time=2025-04-28 20:07:38.493313+05:30 PID=10768 level=warning msg=The operation completed successfully.
+time=2025-04-28 20:07:38.499523+05:30 PID=10768 level=warning msg=The operation completed successfully.
+time=2025-04-28 20:07:38.517348+05:30 PID=10768 level=warning msg=The operation completed successfully.
+time=2025-04-28 20:07:38.517348+05:30 PID=10768 level=info msg=Granting Sudo Permission
+time=2025-04-28 20:07:38.531588+05:30 PID=10768 level=info msg=Granting Sudo Permission
+time=2025-04-28 20:07:38.534417+05:30 PID=10768 level=warning msg=The operation completed successfully.
+time=2025-04-28 20:07:38.534417+05:30 PID=10768 level=info msg=Adding User to groups. username=superman
+time=2025-04-28 20:07:38.534417+05:30 PID=10768 level=info msg=Removing User from groups. username=superman
+time=2025-04-28 20:07:38.534417+05:30 PID=10768 level=debug msg=um.getManagedUser begin username=superman
+time=2025-04-28 20:07:38.534417+05:30 PID=10768 level=debug msg=um.getManagedUser map[superman:0xc00633c160] map dump
+time=2025-04-28 20:07:38.534417+05:30 PID=10768 level=debug msg=um.getManagedUser end username=superman
+time=2025-04-28 20:07:38.534417+05:30 PID=10768 level=info msg=Processing expired password users expiredPasswordUsers=map[]
+time=2025-04-28 20:07:38.534992+05:30 PID=10768 level=info msg=Processing disabling users disabledUsers=map[]
+time=2025-04-28 20:07:38.534992+05:30 PID=10768 level=info msg=Processing lockout users lockoutUsers=map[]
+time=2025-04-28 20:07:38.534992+05:30 PID=10768 level=debug msg=um.writeJCManagedFile WriteFileAtomic path=C:\Program Files\JumpCloud\Plugins\Contrib\managedUsers.json
+time=2025-04-28 20:07:39.875256+05:30 PID=10768 level=debug msg=POST: https://agent.jumpcloud.com:443/agentStartup
+time=2025-04-28 20:07:39.882376+05:30 PID=10768 level=debug msg=[MQTT] [store]    memorystore wiped
+
+time=2025-04-28 20:07:39.882376+05:30 PID=10768 level=info msg=MQTT client connected at 2025-04-28T20:07:39+05:30
+time=2025-04-28 20:07:39.882376+05:30 PID=10768 level=debug msg=MQTT push config requested by subscribe. Using cached config
+time=2025-04-28 20:07:39.882376+05:30 PID=10768 level=debug msg=Subscribing MQTT client to topics mqttTopics=[systems/680f7699b209d8c423cfaee1/state organizations/63638c55073d914a3666debe/state]
+time=2025-04-28 20:07:39.882376+05:30 PID=10768 level=debug msg=MQTT client subscribed to topics. Will execute a poll
+time=2025-04-28 20:07:39.955816+05:30 PID=10768 level=debug msg=No multifactor configuration needed.
+time=2025-04-28 20:07:39.956327+05:30 PID=10768 level=info msg=Posting notification to server. notifications count: 0
+time=2025-04-28 20:07:39.956327+05:30 PID=10768 level=debug msg=sending data to server endpoint URL=/notifications
+time=2025-04-28 20:07:40.246512+05:30 PID=10768 level=info msg=User updates complete
+time=2025-04-28 20:07:40.246512+05:30 PID=10768 level=info msg=Processing event AUTH_CONF_CHANGED with handler User Update Handler
+time=2025-04-28 20:07:40.246512+05:30 PID=10768 level=info msg=Finished processing event AUTH_CONF_CHANGED with handler User Update Handler
+time=2025-04-28 20:07:40.246512+05:30 PID=10768 level=info msg=Processing event AUTH_CONF_CHANGED with handler Lockout Handler
+time=2025-04-28 20:07:40.246512+05:30 PID=10768 level=debug msg=received AuthConfChangedEvent function=event.handlers.Lockout.ProcessEvent
+time=2025-04-28 20:07:40.246512+05:30 PID=10768 level=debug msg=Retroactively enforcing max attempts... function=event.handlers.Lockout.enforceMaxAttempts
+time=2025-04-28 20:07:40.246512+05:30 PID=10768 level=debug msg=write file begin function=event.handlers.Lockout.updateLockoutCache
+time=2025-04-28 20:07:40.246512+05:30 PID=10768 level=debug msg=write file end function=event.handlers.Lockout.updateLockoutCache
+time=2025-04-28 20:07:40.246512+05:30 PID=10768 level=info msg=Finished processing event AUTH_CONF_CHANGED with handler Lockout Handler
+time=2025-04-28 20:07:40.246512+05:30 PID=10768 level=info msg=Processing event AUTH_CONF_CHANGED with handler Event Logger
+time=2025-04-28 20:07:40.246512+05:30 PID=10768 level=info msg=AuthConf Changed
+time=2025-04-28 20:07:40.246512+05:30 PID=10768 level=info msg=Finished processing event AUTH_CONF_CHANGED with handler Event Logger
+time=2025-04-28 20:07:40.854555+05:30 PID=10768 level=info msg=Starting systemreport service
+time=2025-04-28 20:07:40.854636+05:30 PID=10768 level=warning msg=unable to load the time of the last report
+time=2025-04-28 20:07:40.854636+05:30 PID=10768 level=info msg=systemreport.reporter: running system report
+time=2025-04-28 20:07:40.854636+05:30 PID=10768 level=debug msg=systemreport.reporter: Running *datacollectors.domainInfoCollector
+time=2025-04-28 20:07:40.854636+05:30 PID=10768 level=info msg=checking part of domain
+time=2025-04-28 20:07:40.854636+05:30 PID=10768 level=debug msg=Starting system insights service
+time=2025-04-28 20:07:40.854636+05:30 PID=10768 level=warning msg=unable to load the time of the last report
+time=2025-04-28 20:07:40.854636+05:30 PID=10768 level=info msg=systemreport.reporter: running system report
+time=2025-04-28 20:07:40.854636+05:30 PID=10768 level=debug msg=loading system insights cache: C:\Program Files\JumpCloud\Plugins\Contrib\systemInsightsCache.json
+time=2025-04-28 20:07:40.854636+05:30 PID=10768 level=debug msg=systemreport.reporter: Running *datacollectors.remoteIPCollector
+time=2025-04-28 20:07:40.855148+05:30 PID=10768 level=info msg=Launching user agent(s)
+time=2025-04-28 20:07:40.855148+05:30 PID=10768 level=debug msg=system insights query interval is 0, setting to default 3600 seconds
+time=2025-04-28 20:07:40.855209+05:30 PID=10768 level=info msg=delaying system insights start 2320 seconds
+time=2025-04-28 20:07:40.855148+05:30 PID=10768 level=debug msg=Executing command arguments=C:\Program Files\JumpCloud\jumpcloud-user-agent\jumpcloud-user-agent.exe command=C:\Program Files\JumpCloud\launch_app.exe
+time=2025-04-28 20:07:40.905505+05:30 PID=10768 level=info msg=Agent Start complete
+time=2025-04-28 20:07:40.905505+05:30 PID=10768 level=info msg=AgentVersion=2.27.1
+time=2025-04-28 20:07:40.939548+05:30 PID=10768 level=debug msg=User SID S-1-5-21-1012092847-852938944-3688632275-1014 associated with net.Conn &{0xc0002a11e0 \\.\pipe\jumpcloud-grpc}
+time=2025-04-28 20:07:40.940056+05:30 PID=10768 level=debug msg=Connection made userID=S-1-5-21-1012092847-852938944-3688632275-1014
+time=2025-04-28 20:07:40.940642+05:30 PID=10768 level=debug msg=legacyUsernameFromString function=localgrpc.getUserInfo username=superman
+time=2025-04-28 20:07:40.940642+05:30 PID=10768 level=debug msg=HandleUserInfo function=localgrpc.getUserInfo requestUUID=67727063677270636772706367727063 username=superman
+time=2025-04-28 20:07:40.940642+05:30 PID=10768 level=debug msg=um.getManagedUser begin username=superman
+time=2025-04-28 20:07:40.940642+05:30 PID=10768 level=debug msg=um.getManagedUser map[superman:0xc000274580] map dump
+time=2025-04-28 20:07:40.940642+05:30 PID=10768 level=debug msg=um.getManagedUser end username=superman
+time=2025-04-28 20:07:40.940642+05:30 PID=10768 level=debug msg=um.getManagedUser begin username=superman
+time=2025-04-28 20:07:40.941149+05:30 PID=10768 level=debug msg=um.getManagedUser map[superman:0xc000274580] map dump
+time=2025-04-28 20:07:40.941149+05:30 PID=10768 level=debug msg=um.getManagedUser end username=superman
+time=2025-04-28 20:07:40.941218+05:30 PID=10768 level=debug msg=um.getManagedUser begin username=superman
+time=2025-04-28 20:07:40.941218+05:30 PID=10768 level=debug msg=um.getManagedUser map[superman:0xc000274580] map dump
+time=2025-04-28 20:07:40.941218+05:30 PID=10768 level=debug msg=um.getManagedUser end username=superman
+time=2025-04-28 20:07:40.941218+05:30 PID=10768 level=debug msg=um.GetManagedUser begin username=superman
+time=2025-04-28 20:07:40.941218+05:30 PID=10768 level=debug msg=um.getManagedUser begin username=superman
+time=2025-04-28 20:07:40.941218+05:30 PID=10768 level=debug msg=um.getManagedUser map[superman:0xc000274580] map dump
+time=2025-04-28 20:07:40.941218+05:30 PID=10768 level=debug msg=um.getManagedUser end username=superman
+time=2025-04-28 20:07:40.941218+05:30 PID=10768 level=debug msg=um.getManagedUser begin username=superman
+time=2025-04-28 20:07:40.941218+05:30 PID=10768 level=debug msg=um.getManagedUser map[superman:0xc000274580] map dump
+time=2025-04-28 20:07:40.941218+05:30 PID=10768 level=debug msg=um.getManagedUser end username=superman
+time=2025-04-28 20:07:40.941218+05:30 PID=10768 level=debug msg=rawResp function=localgrpc.getUserInfo username=superman
+time=2025-04-28 20:07:40.941218+05:30 PID=10768 level=debug msg=StreamingUserInfoResponse function=localgrpc.getUserInfo username=superman
+time=2025-04-28 20:07:40.941218+05:30 PID=10768 level=debug msg=um.getManagedUser begin username=superman
+time=2025-04-28 20:07:40.941218+05:30 PID=10768 level=debug msg=um.getManagedUser map[superman:0xc000274580] map dump
+time=2025-04-28 20:07:40.941722+05:30 PID=10768 level=debug msg=um.getManagedUser end username=superman
+time=2025-04-28 20:07:40.941722+05:30 PID=10768 level=debug msg=um.getManagedUser begin username=superman
+time=2025-04-28 20:07:40.941722+05:30 PID=10768 level=debug msg=um.getManagedUser map[superman:0xc000274580] map dump
+time=2025-04-28 20:07:40.941722+05:30 PID=10768 level=debug msg=um.getManagedUser end username=superman
+time=2025-04-28 20:07:40.941722+05:30 PID=10768 level=debug msg=StreamingUserInfoResponse result=password_expiration_date:1777380303  install_certs:true  cert_renewal_date:1747227046
+time=2025-04-28 20:07:41.250264+05:30 PID=10768 level=info msg=register client successful function=DirectivesServer.Register path=jumpcloud.remote_assist_agent
+time=2025-04-28 20:07:41.554706+05:30 PID=10768 level=debug msg=systemreport.reporter: Running *datacollectors.amazonInstanceIDCollector
+time=2025-04-28 20:07:42.555264+05:30 PID=10768 level=debug msg=GET: https://agent.jumpcloud.com:443/poll/0
+time=2025-04-28 20:07:42.592518+05:30 PID=10768 level=info msg=MQTT push client received message on topic. Queueing poll MQTTPayload={} mqttTopics=systems/680f7699b209d8c423cfaee1/state
+time=2025-04-28 20:07:42.830028+05:30 PID=10768 level=debug msg=dispatchToListeners: directive received body={"directive":"update_policy_conf","directiveId":"0","content":{}}
+time=2025-04-28 20:07:42.830028+05:30 PID=10768 level=warning msg=Poll delay interval is 5. Last poll was 5.5004277s ago. Will poll immediately
+time=2025-04-28 20:07:42.830028+05:30 PID=10768 level=info msg=received poll interval trigger function=dispatcher.poller
+time=2025-04-28 20:07:42.830028+05:30 PID=10768 level=debug msg=returning  function=softwareapps.manager.ConfChecksum
+time=2025-04-28 20:07:42.832826+05:30 PID=10768 level=debug msg=Dispatching for directive update_policy_conf
+time=2025-04-28 20:07:42.832826+05:30 PID=10768 level=info msg=policies manager received a request to update its policy conf
+time=2025-04-28 20:07:42.832826+05:30 PID=10768 level=info msg=requesting policy conf from agent server
+time=2025-04-28 20:07:43.072804+05:30 PID=10768 level=info msg=The NetGetAadJoinInformation API is available.
+time=2025-04-28 20:07:43.075980+05:30 PID=10768 level=info msg=systemreport: sending system report
+time=2025-04-28 20:07:43.075980+05:30 PID=10768 level=info msg=systemreport: posting report to server
+time=2025-04-28 20:07:43.075980+05:30 PID=10768 level=debug msg=systemreport: report contents report={"remoteIP":null,"amazonInstanceID":null,"googleComputeInstanceID":null,"systemTimezone":null,"hostname":null,"arch":null,"archFamily":null,"networkInterfaces":null,"sshdParams":null,"os":null,"osVersion":null,"osVersionDetail":null,"serialNumber":null,"fde":null,"fileSystem":null,"tpm":null,"passwdSyncFailure":null,"hwModel":null,"hwVendor":null,"hasServiceAccount":null,"passwordUpdateUsers":null,"secureTokenState":null,"libNSSState":null,"desktopCapable":null,"userMetrics":null,"serviceAccountState":null,"domainInfo":{"partOfDomain":false,"domainName":""},"displayManager":null,"azureAdJoined":false,"timeSynchronization":null,"agentHasFullDiskAccess":null}
+
+time=2025-04-28 20:07:43.965305+05:30 PID=10768 level=info msg=policies manager received a request to force update policies
+time=2025-04-28 20:07:43.965305+05:30 PID=10768 level=debug msg=updating policies
+time=2025-04-28 20:07:43.965305+05:30 PID=10768 level=info msg=Incoming Policy Conf:
+          Bundle: &{Checksum:94004b997021c8d51247bed90e2bdfa6 URL:https://cdn02.jumpcloud.com/policies/v4.130.0/jumpcloud-policies-windows-v4.130.0.tgz}
+        Checksum: 3a6428c426517aa416413695ad664c6ec58ec209d472fd3ad5817dc17ea910cf
+        Policies:
+
+time=2025-04-28 20:07:43.965305+05:30 PID=10768 level=info msg=updating policies with: force=true, valid=false
+time=2025-04-28 20:07:46.554953+05:30 PID=10768 level=info msg=Unable to collect amazon instance id error=Get "http://169.254.169.254/latest/meta-data/instance-id": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+time=2025-04-28 20:07:46.554953+05:30 PID=10768 level=debug msg=systemreport.reporter: Running *datacollectors.googleComputeInstanceIDCollector
+time=2025-04-28 20:07:46.574324+05:30 PID=10768 level=debug msg=Ignoring error collecting google compute instance id error=Get "http://metadata.google.internal/computeMetadata/v1/instance/id": dial tcp: lookup metadata.google.internal: no such host
+time=2025-04-28 20:07:46.574324+05:30 PID=10768 level=debug msg=systemreport.reporter: Running *datacollectors.windowsSystemTimezoneCollector
+time=2025-04-28 20:07:48.055865+05:30 PID=10768 level=debug msg=systemreport.reporter: Running *datacollectors.hostnameCollector
+time=2025-04-28 20:07:48.065512+05:30 PID=10768 level=debug msg=systemreport.reporter: Running *datacollectors.windowsOSArchitectureCollector
+time=2025-04-28 20:07:48.065512+05:30 PID=10768 level=debug msg=systemreport.reporter: Running *datacollectors.windowsNetworkInterfacesCollector
+time=2025-04-28 20:07:48.068842+05:30 PID=10768 level=debug msg=systemreport.reporter: Running *datacollectors.osInfoCollector
+time=2025-04-28 20:07:48.215243+05:30 PID=10768 level=debug msg=GET: https://agent.jumpcloud.com:443/poll/0
+time=2025-04-28 20:07:48.499377+05:30 PID=10768 level=debug msg=dispatchToListeners: directive received body={"directive":"ClearWorkflows","directiveId":"680f92b4521c82d98c9d6e3c","content":{}}
+time=2025-04-28 20:07:48.499910+05:30 PID=10768 level=warning msg=Poll delay interval is 5. Last poll was 5.6698807s ago. Will poll immediately
+time=2025-04-28 20:07:48.499910+05:30 PID=10768 level=info msg=received poll interval trigger function=dispatcher.poller
+time=2025-04-28 20:07:48.499910+05:30 PID=10768 level=debug msg=returning  function=softwareapps.manager.ConfChecksum
+time=2025-04-28 20:07:48.499910+05:30 PID=10768 level=debug msg=Dispatching for directive ClearWorkflows
+time=2025-04-28 20:07:48.544954+05:30 PID=10768 level=debug msg=User SID S-1-5-21-1012092847-852938944-3688632275-1014 associated with net.Conn &{0xc0002a1340 \\.\pipe\jumpcloud-grpc}
+time=2025-04-28 20:07:48.544954+05:30 PID=10768 level=debug msg=Connection made userID=S-1-5-21-1012092847-852938944-3688632275-1014
+time=2025-04-28 20:07:48.545793+05:30 PID=10768 level=debug msg=legacyUsernameFromString function=localgrpc.getUserInfo username=superman
+time=2025-04-28 20:07:48.545793+05:30 PID=10768 level=debug msg=HandleUserInfo function=localgrpc.getUserInfo requestUUID=67727063677270636772706367727063 username=superman
+time=2025-04-28 20:07:48.545793+05:30 PID=10768 level=debug msg=um.getManagedUser begin username=superman
+time=2025-04-28 20:07:48.545793+05:30 PID=10768 level=debug msg=um.getManagedUser map[superman:0xc000274580] map dump
+time=2025-04-28 20:07:48.545793+05:30 PID=10768 level=debug msg=um.getManagedUser end username=superman
+time=2025-04-28 20:07:48.545793+05:30 PID=10768 level=debug msg=um.getManagedUser begin username=superman
+time=2025-04-28 20:07:48.545793+05:30 PID=10768 level=debug msg=um.getManagedUser map[superman:0xc000274580] map dump
+time=2025-04-28 20:07:48.545793+05:30 PID=10768 level=debug msg=um.getManagedUser end username=superman
+time=2025-04-28 20:07:48.545793+05:30 PID=10768 level=debug msg=um.getManagedUser begin username=superman
+time=2025-04-28 20:07:48.545793+05:30 PID=10768 level=debug msg=um.getManagedUser map[superman:0xc000274580] map dump
+time=2025-04-28 20:07:48.546301+05:30 PID=10768 level=debug msg=um.getManagedUser end username=superman
+time=2025-04-28 20:07:48.546301+05:30 PID=10768 level=debug msg=um.GetManagedUser begin username=superman
+time=2025-04-28 20:07:48.546301+05:30 PID=10768 level=debug msg=um.getManagedUser begin username=superman
+time=2025-04-28 20:07:48.546301+05:30 PID=10768 level=debug msg=um.getManagedUser map[superman:0xc000274580] map dump
+time=2025-04-28 20:07:48.546301+05:30 PID=10768 level=debug msg=um.getManagedUser end username=superman
+time=2025-04-28 20:07:48.546301+05:30 PID=10768 level=debug msg=um.getManagedUser begin username=superman
+time=2025-04-28 20:07:48.546301+05:30 PID=10768 level=debug msg=um.getManagedUser map[superman:0xc000274580] map dump
+time=2025-04-28 20:07:48.546301+05:30 PID=10768 level=debug msg=um.getManagedUser end username=superman
+time=2025-04-28 20:07:48.546301+05:30 PID=10768 level=debug msg=rawResp function=localgrpc.getUserInfo username=superman
+time=2025-04-28 20:07:48.546301+05:30 PID=10768 level=debug msg=StreamingUserInfoResponse function=localgrpc.getUserInfo username=superman
+time=2025-04-28 20:07:48.546301+05:30 PID=10768 level=debug msg=um.getManagedUser begin username=superman
+time=2025-04-28 20:07:48.546301+05:30 PID=10768 level=debug msg=um.getManagedUser map[superman:0xc000274580] map dump
+time=2025-04-28 20:07:48.546301+05:30 PID=10768 level=debug msg=um.getManagedUser end username=superman
+time=2025-04-28 20:07:48.546301+05:30 PID=10768 level=debug msg=um.getManagedUser begin username=superman
+time=2025-04-28 20:07:48.546301+05:30 PID=10768 level=debug msg=um.getManagedUser map[superman:0xc000274580] map dump
+time=2025-04-28 20:07:48.546301+05:30 PID=10768 level=debug msg=um.getManagedUser end username=superman
+time=2025-04-28 20:07:48.546301+05:30 PID=10768 level=debug msg=StreamingUserInfoResponse result=password_expiration_date:1777380303  install_certs:true  cert_renewal_date:1747227046
+time=2025-04-28 20:07:53.352706+05:30 PID=10768 level=error msg=error when closing file error=close C:\Program Files\JumpCloud\policies\jumpcloud-policies.tgz: file already closed path=C:\Program Files\JumpCloud\policies\jumpcloud-policies.tgz
+time=2025-04-28 20:07:53.416086+05:30 PID=10768 level=info msg=downloaded policies bundle: https://cdn02.jumpcloud.com/policies/v4.130.0/jumpcloud-policies-windows-v4.130.0.tgz
+time=2025-04-28 20:07:53.416086+05:30 PID=10768 level=debug msg=stopping policy monitors
+time=2025-04-28 20:07:53.416086+05:30 PID=10768 level=debug msg=enqueueing policy uninstalls
+time=2025-04-28 20:07:53.455239+05:30 PID=10768 level=debug msg=policy tracker db retrieving tracked policies
+time=2025-04-28 20:07:53.456550+05:30 PID=10768 level=info msg=updated in memory policy conf with incoming conf
+time=2025-04-28 20:07:53.457059+05:30 PID=10768 level=info msg=wrote incoming conf to disk
+time=2025-04-28 20:07:53.479619+05:30 PID=10768 level=info msg=policies manager now applying policies
+time=2025-04-28 20:07:53.479619+05:30 PID=10768 level=info msg=policies manager received a ClearWorkflows request to update workflow policies
+time=2025-04-28 20:07:53.479619+05:30 PID=10768 level=debug msg=Policy manager unloading existing workflow policies and monitors
+time=2025-04-28 20:07:54.017673+05:30 PID=10768 level=debug msg=GET: https://agent.jumpcloud.com:443/poll/680f92b4521c82d98c9d6e3c
+time=2025-04-28 20:07:54.309070+05:30 PID=10768 level=debug msg=Heartbeat received
+time=2025-04-28 20:07:54.309070+05:30 PID=10768 level=info msg=received immediate poll request function=dispatcher.poller
+time=2025-04-28 20:07:54.309070+05:30 PID=10768 level=debug msg=Dispatching for directive heartbeat
+time=2025-04-28 20:07:54.309070+05:30 PID=10768 level=debug msg=returning  function=softwareapps.manager.ConfChecksum
+time=2025-04-28 20:07:56.075168+05:30 PID=10768 level=debug msg=systemreport.reporter: Running *datacollectors.windowsSerialNumberCollector
+time=2025-04-28 20:07:56.075168+05:30 PID=10768 level=info msg=getting windows serial number
+time=2025-04-28 20:07:58.761954+05:30 PID=10768 level=info msg=serial number response: 8711-0860-4201-5963-0801-1981-51
+
+time=2025-04-28 20:07:58.761954+05:30 PID=10768 level=debug msg=systemreport.reporter: Running *datacollectors.windowsDesktopCapableCollector
+time=2025-04-28 20:07:59.390316+05:30 PID=10768 level=debug msg=GET: https://agent.jumpcloud.com:443/poll/680f92b4521c82d98c9d6e3c
+time=2025-04-28 20:07:59.555542+05:30 PID=10768 level=debug msg=systemreport.reporter: Running *datacollectors.domainInfoCollector
+time=2025-04-28 20:07:59.561621+05:30 PID=10768 level=info msg=checking part of domain
+time=2025-04-28 20:07:59.660425+05:30 PID=10768 level=debug msg=Heartbeat received
+time=2025-04-28 20:07:59.660425+05:30 PID=10768 level=info msg=received immediate poll request function=dispatcher.poller
+time=2025-04-28 20:07:59.660425+05:30 PID=10768 level=debug msg=Dispatching for directive heartbeat
+time=2025-04-28 20:07:59.660425+05:30 PID=10768 level=debug msg=returning  function=softwareapps.manager.ConfChecksum
+time=2025-04-28 20:08:01.804632+05:30 PID=10768 level=debug msg=systemreport.reporter: Running *datacollectors.systemInfoCollector
+time=2025-04-28 20:08:03.949228+05:30 PID=10768 level=debug msg=GET: https://agent.jumpcloud.com:443/poll/680f92b4521c82d98c9d6e3c
+time=2025-04-28 20:08:03.985883+05:30 PID=10768 level=debug msg=systemreport.reporter: Running *datacollectors.timeSynchronizationCollector
+time=2025-04-28 20:08:04.223539+05:30 PID=10768 level=debug msg=Heartbeat received
+time=2025-04-28 20:08:04.223539+05:30 PID=10768 level=debug msg=Dispatching for directive heartbeat
+time=2025-04-28 20:08:05.337256+05:30 PID=10768 level=warning msg=error parsing Last Successful Sync Time error=parsing time "28-04-2025 20:07:56": month out of range fields.time=0001-01-01 00:00:00 +0000 UTC
+time=2025-04-28 20:08:05.370192+05:30 PID=10768 level=info msg=systemreport: sending system report
+time=2025-04-28 20:08:05.370192+05:30 PID=10768 level=info msg=systemreport: posting report to server
+time=2025-04-28 20:08:05.370722+05:30 PID=10768 level=debug msg=systemreport: report contents report={"remoteIP":"106.201.165.135","amazonInstanceID":null,"googleComputeInstanceID":null,"systemTimezone":"+05","hostname":"DESKTOP-EGGTFLH","arch":"64-bit","archFamily":"amd64","networkInterfaces":[{"name":"Ethernet","address":"192.168.1.9","family":"IPv4","internal":false},{"name":"Ethernet","address":"","family":"IPv6","internal":false}],"sshdParams":null,"os":"Windows","osVersion":"11 Enterprise Evaluation","osVersionDetail":{"osName":"Windows","osId":null,"releaseName":"23H2","major":"10","minor":"0","patch":"22631","majorNumber":10,"minorNumber":0,"patchNumber":22631,"revision":"3880"},"serialNumber":"8711-0860-4201-5963-0801-1981-51","fde":{"active":true,"keyHash":"4e39c1699e2e2607964a0d0e46b485f9b13f5eada724c96f9c652f1378496d0c"},"fileSystem":null,"tpm":{"version":{"major":"2","minor":"0","patch":""}},"passwdSyncFailure":null,"hwModel":"Virtual Machine","hwVendor":"Microsoft Corporation","hasServiceAccount":null,"passwordUpdateUsers":null,"secureTokenState":null,"libNSSState":null,"desktopCapable":true,"userMetrics":null,"serviceAccountState":null,"domainInfo":{"partOfDomain":false,"domainName":""},"displayManager":null,"azureAdJoined":false,"timeSynchronization":{"localCollectionTime":1745851083,"synced":true,"syncType":"NTP","lastSuccessfulSyncTime":null,"lastTimeOffsetMillis":0,"ntpServer":"time.windows.com,0x9","verified":true,"verificationNTPServer":"0.pool.ntp.org","verificationTimeOffsetMillis":53},"agentHasFullDiskAccess":null}
+
+time=2025-04-28 20:08:07.324340+05:30 PID=10768 level=debug msg=Attempt send lastSendTime=2025-04-28 20:08:07.3243403 +0530 IST m=+35.544056301 sendDelay=30s service=DBQueue
+time=2025-04-28 20:08:07.597996+05:30 PID=10768 level=debug msg=Reset last send time lastSendTime=2025-04-28 20:08:07.5979961 +0530 IST m=+35.817712101 sendDelay=30s service=DBQueue
+time=2025-04-28 20:08:10.273749+05:30 PID=10768 level=debug msg=um.getManagedUser begin username=superman
+time=2025-04-28 20:08:10.273749+05:30 PID=10768 level=debug msg=um.getManagedUser map[superman:0xc000274580] map dump
+time=2025-04-28 20:08:10.273749+05:30 PID=10768 level=debug msg=um.getManagedUser end username=superman
+time=2025-04-28 20:08:10.273749+05:30 PID=10768 level=debug msg=um.getManagedUser begin username=superman
+time=2025-04-28 20:08:10.273749+05:30 PID=10768 level=debug msg=um.getManagedUser map[superman:0xc000274580] map dump
+time=2025-04-28 20:08:10.273749+05:30 PID=10768 level=debug msg=um.getManagedUser end username=superman
+time=2025-04-28 20:08:10.273749+05:30 PID=10768 level=debug msg=um.getManagedUser begin username=superman
+time=2025-04-28 20:08:10.273749+05:30 PID=10768 level=debug msg=um.getManagedUser map[superman:0xc000274580] map dump
+time=2025-04-28 20:08:10.273749+05:30 PID=10768 level=debug msg=um.getManagedUser end username=superman
+time=2025-04-28 20:08:10.273749+05:30 PID=10768 level=debug msg=um.GetManagedUser begin username=superman
+time=2025-04-28 20:08:10.273749+05:30 PID=10768 level=debug msg=um.getManagedUser begin username=superman
+time=2025-04-28 20:08:10.273749+05:30 PID=10768 level=debug msg=um.getManagedUser map[superman:0xc000274580] map dump
+time=2025-04-28 20:08:10.273749+05:30 PID=10768 level=debug msg=um.getManagedUser end username=superman
+time=2025-04-28 20:08:10.273749+05:30 PID=10768 level=debug msg=um.getManagedUser begin username=superman
+time=2025-04-28 20:08:10.273749+05:30 PID=10768 level=debug msg=um.getManagedUser map[superman:0xc000274580] map dump
+time=2025-04-28 20:08:10.273749+05:30 PID=10768 level=debug msg=um.getManagedUser end username=superman
+time=2025-04-28 20:08:27.228418+05:30 PID=10768 level=info msg=Processing event LOGIN with handler Audit Manager
+time=2025-04-28 20:08:27.228418+05:30 PID=10768 level=info msg=Finished processing event LOGIN with handler Audit Manager
+time=2025-04-28 20:08:27.228418+05:30 PID=10768 level=info msg=Processing event LOGIN with handler LoginMetrics
+time=2025-04-28 20:08:27.228418+05:30 PID=10768 level=info msg=Finished processing event LOGIN with handler LoginMetrics
+time=2025-04-28 20:08:27.228418+05:30 PID=10768 level=info msg=Processing event LOGIN with handler Login Tracker
+time=2025-04-28 20:08:27.228418+05:30 PID=10768 level=debug msg=event.handlers.LoginTracker.ProcessEvent - received LoginEvent for user username=SYSTEM
+time=2025-04-28 20:08:27.228923+05:30 PID=10768 level=info msg=Finished processing event LOGIN with handler Login Tracker
+time=2025-04-28 20:08:27.228923+05:30 PID=10768 level=info msg=Processing event LOGIN with handler Policies Event Handler
+time=2025-04-28 20:08:27.228923+05:30 PID=10768 level=debug msg=Not applying policy for SYSTEM account login.
+time=2025-04-28 20:08:27.228923+05:30 PID=10768 level=info msg=Finished processing event LOGIN with handler Policies Event Handler
+time=2025-04-28 20:08:27.228923+05:30 PID=10768 level=info msg=Processing event LOGIN with handler Login Callback Handler
+time=2025-04-28 20:08:27.228923+05:30 PID=10768 level=debug msg=um.getManagedUser begin username=SYSTEM
+time=2025-04-28 20:08:27.228923+05:30 PID=10768 level=debug msg=um.getManagedUser map[superman:0xc000274580] map dump
+time=2025-04-28 20:08:27.228923+05:30 PID=10768 level=debug msg=um.getManagedUser end username=SYSTEM
+time=2025-04-28 20:08:27.228923+05:30 PID=10768 level=info msg=Finished processing event LOGIN with handler Login Callback Handler
+time=2025-04-28 20:08:27.228923+05:30 PID=10768 level=info msg=Processing event LOGIN with handler Event Logger
+time=2025-04-28 20:08:27.228923+05:30 PID=10768 level=info msg=User SYSTEM logged in from an unknown IP address, process name: C:\Windows\System32\services.exe, time: 2025-04-28T14:38:26.2138807Z
+time=2025-04-28 20:08:27.228923+05:30 PID=10768 level=info msg=Finished processing event LOGIN with handler Event Logger
+time=2025-04-28 20:08:27.228923+05:30 PID=10768 level=info msg=Processing event LOGIN with handler Lockout Handler
+time=2025-04-28 20:08:27.228923+05:30 PID=10768 level=debug msg=received LoginEvent function=event.handlers.Lockout.ProcessEvent
+time=2025-04-28 20:08:27.228923+05:30 PID=10768 level=debug msg=event.handlers.Lockout.ProcessEvent - GetManagedUsername begin username=SYSTEM
+time=2025-04-28 20:08:27.228923+05:30 PID=10768 level=debug msg=um.GetManagedUsername begin username=SYSTEM
+time=2025-04-28 20:08:27.228923+05:30 PID=10768 level=debug msg=um.getManagedUser begin username=SYSTEM
+time=2025-04-28 20:08:27.228923+05:30 PID=10768 level=debug msg=um.getManagedUser map[superman:0xc000274580] map dump
+time=2025-04-28 20:08:27.228923+05:30 PID=10768 level=debug msg=um.getManagedUser end username=SYSTEM
+time=2025-04-28 20:08:27.228923+05:30 PID=10768 level=debug msg=event.handlers.Lockout.ProcessEvent - GetManagedUsername end username=SYSTEM
+time=2025-04-28 20:08:27.228923+05:30 PID=10768 level=info msg=Finished processing event LOGIN with handler Lockout Handler
+time=2025-04-28 20:08:31.300730+05:30 PID=10768 level=info msg=Processing event LOGIN with handler Lockout Handler
+time=2025-04-28 20:08:31.300730+05:30 PID=10768 level=debug msg=received LoginEvent function=event.handlers.Lockout.ProcessEvent
+time=2025-04-28 20:08:31.300730+05:30 PID=10768 level=debug msg=event.handlers.Lockout.ProcessEvent - GetManagedUsername begin username=SYSTEM
+time=2025-04-28 20:08:31.300730+05:30 PID=10768 level=debug msg=um.GetManagedUsername begin username=SYSTEM
+time=2025-04-28 20:08:31.300730+05:30 PID=10768 level=debug msg=um.getManagedUser begin username=SYSTEM
+time=2025-04-28 20:08:31.300730+05:30 PID=10768 level=debug msg=um.getManagedUser map[superman:0xc000274580] map dump
+time=2025-04-28 20:08:31.300730+05:30 PID=10768 level=debug msg=um.getManagedUser end username=SYSTEM
+time=2025-04-28 20:08:31.300730+05:30 PID=10768 level=debug msg=event.handlers.Lockout.ProcessEvent - GetManagedUsername end username=SYSTEM
+time=2025-04-28 20:08:31.300730+05:30 PID=10768 level=info msg=Finished processing event LOGIN with handler Lockout Handler
+time=2025-04-28 20:08:31.300730+05:30 PID=10768 level=info msg=Processing event LOGIN with handler Audit Manager
+time=2025-04-28 20:08:31.300730+05:30 PID=10768 level=info msg=Finished processing event LOGIN with handler Audit Manager
+time=2025-04-28 20:08:31.300730+05:30 PID=10768 level=info msg=Processing event LOGIN with handler LoginMetrics
+time=2025-04-28 20:08:31.300730+05:30 PID=10768 level=info msg=Finished processing event LOGIN with handler LoginMetrics
+time=2025-04-28 20:08:31.300730+05:30 PID=10768 level=info msg=Processing event LOGIN with handler Login Tracker
+time=2025-04-28 20:08:31.300730+05:30 PID=10768 level=debug msg=event.handlers.LoginTracker.ProcessEvent - received LoginEvent for user username=SYSTEM
+time=2025-04-28 20:08:31.300730+05:30 PID=10768 level=info msg=Finished processing event LOGIN with handler Login Tracker
+time=2025-04-28 20:08:31.300730+05:30 PID=10768 level=info msg=Processing event LOGIN with handler Policies Event Handler
+time=2025-04-28 20:08:31.300730+05:30 PID=10768 level=debug msg=Not applying policy for SYSTEM account login.
+time=2025-04-28 20:08:31.300730+05:30 PID=10768 level=info msg=Finished processing event LOGIN with handler Policies Event Handler
+time=2025-04-28 20:08:31.300730+05:30 PID=10768 level=info msg=Processing event LOGIN with handler Login Callback Handler
+time=2025-04-28 20:08:31.300730+05:30 PID=10768 level=debug msg=um.getManagedUser begin username=SYSTEM
+time=2025-04-28 20:08:31.300730+05:30 PID=10768 level=debug msg=um.getManagedUser map[superman:0xc000274580] map dump
+time=2025-04-28 20:08:31.301952+05:30 PID=10768 level=debug msg=um.getManagedUser end username=SYSTEM
+time=2025-04-28 20:08:31.301952+05:30 PID=10768 level=info msg=Finished processing event LOGIN with handler Login Callback Handler
+time=2025-04-28 20:08:31.301952+05:30 PID=10768 level=info msg=Processing event LOGIN with handler Event Logger
+time=2025-04-28 20:08:31.301952+05:30 PID=10768 level=info msg=User SYSTEM logged in from an unknown IP address, process name: C:\Windows\System32\services.exe, time: 2025-04-28T14:38:30.2863158Z
+time=2025-04-28 20:08:31.301952+05:30 PID=10768 level=info msg=Finished processing event LOGIN with handler Event Logger
+time=2025-04-28 20:08:37.209696+05:30 PID=10768 level=info msg=Processing event LOGIN with handler Lockout Handler
+time=2025-04-28 20:08:37.209696+05:30 PID=10768 level=debug msg=received LoginEvent function=event.handlers.Lockout.ProcessEvent
+time=2025-04-28 20:08:37.209696+05:30 PID=10768 level=debug msg=event.handlers.Lockout.ProcessEvent - GetManagedUsername begin username=SYSTEM
+time=2025-04-28 20:08:37.209696+05:30 PID=10768 level=debug msg=um.GetManagedUsername begin username=SYSTEM
+time=2025-04-28 20:08:37.209696+05:30 PID=10768 level=debug msg=um.getManagedUser begin username=SYSTEM
+time=2025-04-28 20:08:37.209696+05:30 PID=10768 level=debug msg=um.getManagedUser map[superman:0xc000274580] map dump
+time=2025-04-28 20:08:37.209696+05:30 PID=10768 level=debug msg=um.getManagedUser end username=SYSTEM
+time=2025-04-28 20:08:37.209696+05:30 PID=10768 level=debug msg=event.handlers.Lockout.ProcessEvent - GetManagedUsername end username=SYSTEM
+time=2025-04-28 20:08:37.210778+05:30 PID=10768 level=info msg=Finished processing event LOGIN with handler Lockout Handler
+time=2025-04-28 20:08:37.210975+05:30 PID=10768 level=info msg=Processing event LOGIN with handler Audit Manager
+time=2025-04-28 20:08:37.210975+05:30 PID=10768 level=info msg=Finished processing event LOGIN with handler Audit Manager
+time=2025-04-28 20:08:37.210975+05:30 PID=10768 level=info msg=Processing event LOGIN with handler LoginMetrics
+time=2025-04-28 20:08:37.210975+05:30 PID=10768 level=info msg=Finished processing event LOGIN with handler LoginMetrics
+time=2025-04-28 20:08:37.210975+05:30 PID=10768 level=info msg=Processing event LOGIN with handler Login Tracker
+time=2025-04-28 20:08:37.211485+05:30 PID=10768 level=debug msg=event.handlers.LoginTracker.ProcessEvent - received LoginEvent for user username=SYSTEM
+time=2025-04-28 20:08:37.211485+05:30 PID=10768 level=info msg=Finished processing event LOGIN with handler Login Tracker
+time=2025-04-28 20:08:37.211485+05:30 PID=10768 level=info msg=Processing event LOGIN with handler Policies Event Handler
+time=2025-04-28 20:08:37.211485+05:30 PID=10768 level=debug msg=Not applying policy for SYSTEM account login.
+time=2025-04-28 20:08:37.211485+05:30 PID=10768 level=info msg=Finished processing event LOGIN with handler Policies Event Handler
+time=2025-04-28 20:08:37.211485+05:30 PID=10768 level=info msg=Processing event LOGIN with handler Login Callback Handler
+time=2025-04-28 20:08:37.211485+05:30 PID=10768 level=debug msg=um.getManagedUser begin username=SYSTEM
+time=2025-04-28 20:08:37.211485+05:30 PID=10768 level=debug msg=um.getManagedUser map[superman:0xc000274580] map dump
+time=2025-04-28 20:08:37.211485+05:30 PID=10768 level=debug msg=um.getManagedUser end username=SYSTEM
+time=2025-04-28 20:08:37.211485+05:30 PID=10768 level=info msg=Finished processing event LOGIN with handler Login Callback Handler
+time=2025-04-28 20:08:37.211485+05:30 PID=10768 level=info msg=Processing event LOGIN with handler Event Logger
+time=2025-04-28 20:08:37.211485+05:30 PID=10768 level=info msg=User SYSTEM logged in from an unknown IP address, process name: C:\Windows\System32\services.exe, time: 2025-04-28T14:38:36.2018963Z
+time=2025-04-28 20:08:37.211485+05:30 PID=10768 level=info msg=Finished processing event LOGIN with handler Event Logger
+time=2025-04-28 20:08:37.324572+05:30 PID=10768 level=debug msg=Skip send lastSendTime=2025-04-28 20:08:07.5979961 +0530 IST m=+35.817712101 sendDelay=30s service=DBQueue
+time=2025-04-28 20:08:43.076180+05:30 PID=10768 level=info msg=systemreport.reporter: running system report
+time=2025-04-28 20:08:43.076180+05:30 PID=10768 level=debug msg=systemreport.reporter: Running *datacollectors.domainInfoCollector
+time=2025-04-28 20:08:43.076180+05:30 PID=10768 level=info msg=checking part of domain
+time=2025-04-28 20:09:07.324350+05:30 PID=10768 level=debug msg=Attempt send lastSendTime=2025-04-28 20:09:07.3243502 +0530 IST m=+95.544060201 sendDelay=30s service=DBQueue
+time=2025-04-28 20:09:10.267306+05:30 PID=10768 level=debug msg=um.getManagedUser begin username=superman
+time=2025-04-28 20:09:10.267306+05:30 PID=10768 level=debug msg=um.getManagedUser map[superman:0xc000274580] map dump
+time=2025-04-28 20:09:10.267306+05:30 PID=10768 level=debug msg=um.getManagedUser end username=superman
+time=2025-04-28 20:09:10.267306+05:30 PID=10768 level=debug msg=um.getManagedUser begin username=superman
+time=2025-04-28 20:09:10.267306+05:30 PID=10768 level=debug msg=um.getManagedUser map[superman:0xc000274580] map dump
+time=2025-04-28 20:09:10.267306+05:30 PID=10768 level=debug msg=um.getManagedUser end username=superman
+time=2025-04-28 20:09:10.267306+05:30 PID=10768 level=debug msg=um.getManagedUser begin username=superman
+time=2025-04-28 20:09:10.267306+05:30 PID=10768 level=debug msg=um.getManagedUser map[superman:0xc000274580] map dump
+time=2025-04-28 20:09:10.267306+05:30 PID=10768 level=debug msg=um.getManagedUser end username=superman
+time=2025-04-28 20:09:10.267306+05:30 PID=10768 level=debug msg=um.GetManagedUser begin username=superman
+time=2025-04-28 20:09:10.267306+05:30 PID=10768 level=debug msg=um.getManagedUser begin username=superman
+time=2025-04-28 20:09:10.267306+05:30 PID=10768 level=debug msg=um.getManagedUser map[superman:0xc000274580] map dump
+time=2025-04-28 20:09:10.267306+05:30 PID=10768 level=debug msg=um.getManagedUser end username=superman
+time=2025-04-28 20:09:10.267306+05:30 PID=10768 level=debug msg=um.getManagedUser begin username=superman
+time=2025-04-28 20:09:10.267306+05:30 PID=10768 level=debug msg=um.getManagedUser map[superman:0xc000274580] map dump
+time=2025-04-28 20:09:10.267306+05:30 PID=10768 level=debug msg=um.getManagedUser end username=superman
+time=2025-04-28 20:09:37.324305+05:30 PID=10768 level=debug msg=Skip send lastSendTime=2025-04-28 20:09:07.3243502 +0530 IST m=+95.544060201 sendDelay=30s service=DBQueue
+time=2025-04-28 20:09:45.992518+05:30 PID=10768 level=info msg=systemreport.reporter: running system report
+time=2025-04-28 20:09:45.992518+05:30 PID=10768 level=debug msg=systemreport.reporter: Running *datacollectors.domainInfoCollector
+time=2025-04-28 20:09:45.992897+05:30 PID=10768 level=info msg=checking part of domain
